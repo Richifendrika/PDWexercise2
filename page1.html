@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Halaman Biodata</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <center>
+            <h1>Narcos</h1>
+        <ul>
+            <li>
+                <h2 id="video">Video Pablo Escobar</h2>
+                <hr>
+                <video controls width="300" height="500" loop autoplay muted preload="auto">
+                    <source src="video pablo.mp4.mp4" type="video/mp4">
+                    <source src="video pablo.mp4.mp4" type="video/ogg">
+                    <source src="video pablo.mp4.mp4" type="video/webm">
+                    <track kind="captions" src="Video Pablo Escobar.mp4" srclang="en" label="English">
+                </video>
+            </li>
+            <li>
+                <h2 id="audio">Audio Pablo Escobar</h2>
+                <hr>
+                <audio controls>
+                    <source src="lagu pablo.mp3.mp3" type="audio/mp3">
+                </audio>
+            </li>
+            <li>
+                <h2 id="gambar">Gambar Responsive</h2>
+                <hr>
+                <img src="pablo.jpg">
+            </li>
+        </ul>
+        </center>
+        <div class="container-fluid py-5">
+            <button class="btn btn-primary btn-lg"
+            onclick="window.location.href='page2.html';">Survey</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

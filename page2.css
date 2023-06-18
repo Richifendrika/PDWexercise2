@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(44, 46, 46);
+    padding: 20px;
+    font-size: 20px;
+}
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(186, 218, 246);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px red;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button {
+    text-align: center;
+}
+  
+.button button {
+    width: 400px;
+    background-color: red;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
